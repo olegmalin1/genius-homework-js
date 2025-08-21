@@ -80,7 +80,7 @@ switch (monthNumber) {
 //Поверніть користувачу сумму цих чисел
 console.log('---task 5---');
 // const threeDigitNumber = prompt('Enter a three-digit number');
-const threeDigitNumber = String(999);
+const threeDigitNumber = String(555);
 let result = 0;
 if (threeDigitNumber.length === 3 && !isNaN(threeDigitNumber)) {
   for (let i = 0; i < threeDigitNumber.length; i++) {
